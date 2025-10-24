@@ -1,4 +1,3 @@
-
 const { add, subtract, multiply, divide, modulus } = require('./calculator');
 
 test('adds 2 + 3 = 5', () => {
@@ -22,5 +21,5 @@ test('throws error for divide by zero', () => {
 });
 
 test('modulus of 10 % 3 should be 1', () => {
-    expect(calculator.modulus(10, 3)).toBe(1);
+  expect(modulus(10, 3)).toBe(1);
 });
