@@ -20,3 +20,7 @@ test('divides 10 / 2 = 5', () => {
 test('throws error for divide by zero', () => {
   expect(() => divide(10, 0)).toThrow("Cannot divide by zero");
 });
+
+test('modulus of 10 % 3 should be 1', () => {
+    expect(calculator.modulus(10, 3)).toBe(1);
+});
